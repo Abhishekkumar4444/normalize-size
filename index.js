@@ -13,6 +13,7 @@ const fontCache = {};
  * @returns {number} - The normalized size adjusted for the screen width.
  */
 
+// use for font size , padding ,margin , width , height
 export function sizeNormalize(size) {
   if (size in fontCache) {
     return fontCache[size];
