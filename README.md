@@ -23,7 +23,7 @@ yarn add normalize-size
 import { sizeNormalize } from 'normalize-size';
 
 
-# // Example: Normalize a font size based on a reference size of 375 and the device's screen width
+// Example: Normalize a font size based on a reference size of 375 and the device's screen width
 const normalizedFontSize = sizeNormalize(20);
 
 ```
