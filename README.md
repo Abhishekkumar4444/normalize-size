@@ -23,8 +23,14 @@ yarn add normalize-size
 import { sizeNormalize } from 'normalize-size';
 
 
-// Example: Normalize a font size based on a reference size of 375 and the device's screen width
-const normalizedFontSize = sizeNormalize(20);
+// Example: Normalize a font size based on a reference size of 375 and the device's screen width. 
+// To make the width and fontSize responsive for all device screens using sizeNormalize
+
+
+<Text style={[{ width: sizeNormalize(50), fontSize: sizeNormalize(18) }]}>
+  Normalize-size
+</Text>
+
 
 ```
 
